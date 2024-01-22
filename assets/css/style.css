@@ -31,7 +31,10 @@
 }
 
 .background {
-    background: #14202A;
+    /* background: #14202A; */
+    background: linear-gradient(180deg, #101920 0%, rgba(0, 20, 29, 0) 100%),
+        linear-gradient(180deg, #1B2B38, #1B2B38);
+    ;
 }
 
 .img {
@@ -344,7 +347,7 @@
 }
 
 .icon:hover {
-    transform: translate(0px, -10px);
+    transform: translate(0, -10px);
 }
 
 .email-text {
@@ -868,8 +871,6 @@ input[type=checkbox] {
 
 }
 
-
-
 @media (max-width:992px) {
 
 
@@ -945,8 +946,6 @@ input[type=checkbox] {
         top: 50%;
         left: 63px;
     }
-
-
 
     .pt_40 {
         padding-top: 40px;

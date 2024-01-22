@@ -107,8 +107,8 @@ if (titleMain.length) {
 };
 
 
-AOS.init();
-once: true;
+AOS.init({ once: true });
+
 
 
 var btn = $('#button');
